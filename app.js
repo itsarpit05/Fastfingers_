@@ -22,6 +22,10 @@ const sentences =  [
     "The spacecraft launched into the stars at 1 45 in the morning"
 ]
 
+window.onload = () => {
+    show_sentence.innerHTML = "Click on START to become a typing maestro";
+}
+
 //step 3
 const startTyping=()=>{
   let random_number = Math.floor(Math.random()*sentences.length);
